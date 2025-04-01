@@ -1,7 +1,6 @@
-@t
-Feature: SauceDemo Login
+Feature: SauceDemo App
 
-  Description: The login page for SauceDemo should allow authorised users to login to the site
+  Description: The SauceDemo app should allow authorised users to login to the site and add products to the cart
 
   Scenario Outline: Authorised users can login to the site
     Given I am on the SauceDemo login page
