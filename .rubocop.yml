@@ -1,0 +1,8 @@
+inherit_gem:
+  dvla-lint: .rubocop.yml
+
+AllCops:
+  TargetRubyVersion: 3.3
+
+Style/MultilineBlockChain:
+  Enabled: false

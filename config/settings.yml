@@ -1,0 +1,31 @@
+test:
+  accessibility: <%= ENV['ACCESSIBILITY'] || false %> #change this to true to test the page for accessibility violations
+  log_level: <%= ENV['LOG_LEVEL'] || 'DEBUG' %>
+
+system_name: sauce-demo
+
+browser_config:
+  app_host: <%= ENV['APP_HOST'] || 'https://www.saucedemo.com/' %>
+  driver: <%= ENV['DRIVER'] || :selenium_chrome %> # %i[selenium_chrome selenium_edge selenium_firefox cuprite apparition]
+  headless: <%= ENV['HEADLESS'] || false %> # %i[true false]
+  execution: <%= ENV['EXECUTION'] || :local %> # %i[local remote]
+
+authorised_users:
+  standard_user:
+    username: standard_user
+    password: secret_sauce
+  locked_out_user:
+    username: locked_out_user
+    password: secret_sauce
+  problem_user:
+    username: problem_user
+    password: secret_sauce
+  performance_glitch_user:
+    username: performance_glitch_user
+    password: secret_sauce
+  error_user:
+    username: error_user
+    password: secret_sauce
+  visual_user:
+    username: visual_user
+    password: secret_sauce

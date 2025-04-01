@@ -1,0 +1,13 @@
+en:
+  common:
+  login_page:
+    title: "Swag Labs"
+    header: "Swag Labs"
+    buttons:
+      login: "Login"
+  products_page:
+    title: "Swag Labs"
+    header: "Swag Labs"
+    sub_heading: "Products"
+    buttons:
+      add_to_cart: "Add to cart"

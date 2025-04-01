@@ -1,0 +1,20 @@
+cy:
+  date:
+    month_names:
+      [
+        ~,
+        Ionawr,
+        Chwefror,
+        Mawrth,
+        Ebrill,
+        Mai,
+        Mehefin,
+        Gorffennaf,
+        Awst,
+        Medi,
+        Hydref,
+        Tachwedd,
+        Rhagfyr,
+      ]
+  common:
+  # Can be used to translate the pages to Welsh
