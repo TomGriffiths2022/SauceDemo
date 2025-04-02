@@ -105,7 +105,6 @@ class ProductsPage < BasePage
       end
       # Add the item to the list
       LOG.info("Item: '#{item_name}' | Price: '#{price}'")
-      LOG.info("Add to cart button: '#{add_to_cart_button}'")
       # Check if the item is already in the cart
       items << { name: item_name, in_cart: false, button: add_to_cart_button, price: }
     end
